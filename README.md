@@ -8,7 +8,7 @@ OpenPost is a free and open-source blogging platform that allows you to create a
 
 ## Demo
 
-Insert gif or link to demo
+[Demo](https://open-post.vercel.app/)
 
 ## Features
 

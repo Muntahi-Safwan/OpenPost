@@ -13,7 +13,6 @@ function MyPosts() {
             setPosts(res.documents);
         });
     }, [userData.$id]);
-    // testing
     if (userData === null) {
         window.location.href = "/";
     }

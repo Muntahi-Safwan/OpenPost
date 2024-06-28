@@ -37,42 +37,14 @@ function Header() {
     ];
 
     return (
-        // <header className="relative w-full bg-[#EEFDF0] py-3 my-4 container mx-auto rounded-full">
-        //     <Container>
-        //         <nav className="flex items-center">
-        //             <div className="mr-4">
-        //                 <Link to="/">
-        //                     <Logo width="100px" />
-        //                 </Link>
-        //             </div>
-        //             <ul className="flex ml-auto">
-        //                 {navItems.map((item) =>
-        //                     item.active ? (
-        //                         <li key={item.name}>
-        //                             <button
-        //                                 onClick={() => navigate(item.slug)}
-        //                                 className="inline-bock px-6 py-2 duration-200 hover:bg-blue-100 rounded-full hover:bgwhite-100 hover:underline"
-        //                             >
-        //                                 {item.name}
-        //                             </button>
-        //                         </li>
-        //                     ) : null
-        //                 )}
-        //                 {authStatus && (
-        //                     <li>
-        //                         <LogoutBtn />
-        //                     </li>
-        //                 )}
-        //             </ul>
-        //         </nav>
-        //     </Container>
-        // </header>
         <div className="relative w-full bg-[#EBE6C8] py-3 my-4 container mx-auto rounded-full">
             <div className="mx-auto flex max-w-7xl items-center justify-between px-4  sm:px-6 lg:px-3">
                 <div className="inline-flex items-center ">
-                    <span className="font-bold text-3xl text-[#001f3f]">
-                        OpenPost
-                    </span>
+                    <Link to="/">
+                        <span className="font-bold text-3xl text-[#001f3f]">
+                            OpenPost
+                        </span>
+                    </Link>
                 </div>
                 <div className="hidden lg:block">
                     <ul className="inline-flex space-x-8">

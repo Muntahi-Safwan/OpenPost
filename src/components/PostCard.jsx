@@ -4,7 +4,7 @@ import parse from "html-react-parser";
 
 function PostCard({ $id, title, featuredImage, content }) {
     return (
-        <div className="w-[360px] h-[450px] rounded-md border bg-[#EBE6C8] container mx-auto ">
+        <div className="lg:w-[360px] md:w-[300px] sm:w-[200px]h-[450px] rounded-md border bg-[#EBE6C8] container mx-auto ">
             <img
                 src={appWriteService.getFilePreview(featuredImage)}
                 alt="Laptop"

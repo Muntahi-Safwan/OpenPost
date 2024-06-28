@@ -73,7 +73,7 @@ OpenPost is a free and open-source blogging platform that allows you to create a
 
 #### Is it free?
 
-Yes, OpenPost is completely free to use. You can use it for personal or commercial purposes. There is no cost to use OpenPost.
+Yes, OpenPost is completely free to use. You can post your content for free. There is no cost to use OpenPost.
 
 #### How do I get started?
 

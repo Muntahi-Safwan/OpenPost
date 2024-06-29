@@ -1,5 +1,5 @@
 import authService from "../appwrite/auth.js";
-import { Link, useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { useState } from "react";
 import Button from "./Button";
 import Input from "./Input";
@@ -9,7 +9,7 @@ import { useDispatch } from "react-redux";
 import { login } from "../store/authSlice.js";
 
 function Signup() {
-    const navigate = useNavigate();
+    // const navigate = useNavigate();
     const [error, setError] = useState("");
     const { register, handleSubmit } = useForm();
     const dispatch = useDispatch();
@@ -20,7 +20,7 @@ function Signup() {
             if (userData) {
                 const userData = await authService.getCurrentUser();
                 if (userData) dispatch(login(userData));
-                navigate("/");
+                window.location.href = "/";
             }
         } catch (error) {
             setError(error.message);

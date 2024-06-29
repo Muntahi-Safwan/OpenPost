@@ -8,7 +8,10 @@ const Select = forwardRef(function Select(
     return (
         <div className="w-full">
             {label && (
-                <label htmlFor={id} className="inline-block mb-1 pl-1">
+                <label
+                    htmlFor={id}
+                    className="inline-block text-[#EBE6C8] mb-1 pl-1"
+                >
                     {label}
                 </label>
             )}

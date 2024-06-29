@@ -150,15 +150,15 @@ function Header() {
                                 <div className="mt-6">
                                     <nav className="grid gap-y-4 bg-[#EBE6C8] text-white">
                                         {navItems.map((item) => (
-                                            <a
+                                            <Link
                                                 key={item.name}
-                                                href={item.slug}
+                                                to={item.slug}
                                                 className="-m-3 flex items-center rounded-md p-3 text-sm font-semibold text-[#001f3f]  hover:bg-[#001f3f] hover:text-[#EBE6C8]"
                                             >
                                                 <span className="ml-3 text-base font-medium ">
                                                     {item.name}
                                                 </span>
-                                            </a>
+                                            </Link>
                                         ))}
                                     </nav>
                                 </div>
